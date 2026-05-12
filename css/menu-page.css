@@ -201,8 +201,11 @@ body::before {
 }
 
 #card_content {
+    width: 345px;
+    height: 345px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 #card_content h1, #card_content p {
@@ -227,11 +230,14 @@ body::before {
 }
 
 #card_prices {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .card-buttons {
+    margin-right: 5px;
     display: flex;
     gap: 10px;
 }
