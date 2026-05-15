@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #0b0b0b;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background:
+
+        radial-gradient(circle at 85% 35%,
+            transparent 0 90px,
+            rgba(229, 9, 20, 0.10) 91px 93px,
+            transparent 94px 180px,
+            rgba(229, 9, 20, 0.08) 181px 183px,
+            transparent 184px 260px),
+
+        radial-gradient(circle at 15% 50%,
+            transparent 0 70px,
+            rgba(229, 9, 20, 0.08) 71px 73px,
+            transparent 74px 140px,
+            rgba(229, 9, 20, 0.05) 141px 143px,
+            transparent 144px 220px),
+
+        radial-gradient(circle at 3% 30%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        radial-gradient(circle at 3% 40%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        radial-gradient(circle at 3% 50%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        radial-gradient(circle at 3% 60%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        radial-gradient(circle at 3% 70%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        radial-gradient(circle at 3% 80%,
+            rgba(229, 9, 20, 0.18) 0 7px,
+            transparent 8px),
+
+        linear-gradient(180deg,
+            #000000 0%,
+            #080808 55%,
+            #0f0f0f 100%);
+}
+
+.topo {
+    padding: 35px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #610000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #b22222;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.fechar {
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+
+    margin: 70px auto;
+    text-align: center;
+}
+
+.icone {
+    padding: 8px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.input-box {
+    width: 100%;
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.input-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff;
+}
+
+.senha i {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    margin-top: 28px;
+    border: 1px solid #EC1C35;
+    border-radius: 15px;
+    background: rgba(20, 20, 20, 0.95);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

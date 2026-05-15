@@ -10,6 +10,10 @@ function NavToHome() {
     window.location.href = "../index.html";
 }
 
+function NavToWaiterLogin(){
+    window.location.href = "../html/waiter-login.html";
+}
+
 function GoBack() {
     window.history.back();
 }
