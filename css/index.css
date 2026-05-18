@@ -215,3 +215,56 @@ button:hover+.arrow {
     color: white;
     cursor: default;
 }
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .logo-position {
+        margin-top: 30px;
+        padding: 0 16px;
+    }
+
+    .logo {
+        width: 220px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tagline,
+    .slogan {
+        font-size: 16px;
+        margin: 24px 16px;
+    }
+
+    .line {
+        width: 90px;
+        margin: 10px;
+    }
+
+    button {
+        width: calc(100% - 32px);
+        max-width: 380px;
+        height: 52px;
+        font-size: 15px;
+    }
+
+    .social-media {
+        margin-top: 28px;
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        position: static;
+        transform: none;
+        margin: 24px 0 16px;
+    }
+}

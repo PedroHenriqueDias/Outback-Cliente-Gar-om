@@ -321,3 +321,75 @@ footer p {
     background: rgba(229, 9, 20, 0.2);
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+    body{
+        min-height: 430vh;
+    }
+    #home_header {
+        padding: 12px 14px;
+    }
+
+    #home-logo {
+        gap: 12px;
+    }
+
+    #home-logo img,
+    #home-logo svg,
+    #exit svg {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+
+    #nav_header {
+        gap: 10px;
+        padding: 14px;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+
+    .nav-header-entrance,
+    .nav-header-steaks,
+    .nav-header-burgers,
+    .nav-header-seafood,
+    .nav-header-sides,
+    .nav-header-desserts,
+    .nav-header-all {
+        font-size: 11px;
+        padding: 8px 14px;
+        flex: 0 0 auto;
+    }
+
+    #card_row {
+        gap: 18px;
+        padding: 24px 12px 32px;
+    }
+
+    #card,
+    #card_content,
+    #card_content img {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    #card {
+        height: auto;
+        padding: 0;
+    }
+
+    #card_content {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #card_content h1 {
+        font-size: 20px;
+    }
+
+    #card_content p {
+        font-size: 13px;
+        padding-bottom: 16px;
+    }
+}
