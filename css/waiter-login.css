@@ -91,8 +91,8 @@ body::before {
 .fechar {
     position: absolute;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: transparent;
@@ -168,6 +168,18 @@ label {
     font-size: 16px;
 }
 
+.input-box:hover {
+    border-color: #b22222;
+    box-shadow: 0 0 10px #b22222;
+    transition: 0.3s;
+}
+
+.input-box:focus-within {
+    border-color: #b22222;
+    box-shadow: 0 0 15px #b22222;
+    transition: 0.3s;
+}
+
 .input-box input::placeholder {
     color: #ffffff;
 }
@@ -190,6 +202,7 @@ label {
     padding: 10px 20px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .link {
@@ -201,5 +214,21 @@ label {
 }
 
 .link:hover {
+    text-decoration: underline;
+}
+.fechar:hover {
+    transform: scale(1.08);
+    background: rgba(229, 9, 20, 0.2);
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.35);
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(236, 28, 53, 0.35);
+}
+
+.link:hover {
+    color: #ffb347;
     text-decoration: underline;
 }
